@@ -1,0 +1,51 @@
+body {
+  background-color: #000;
+  color           : lime;
+}
+
+#getMessage {
+  color           : lime;
+  background-color: black;
+  border          : 1px solid lime;
+  cursor          : pointer;
+  padding         : 10px;
+  margin-left     : 1em;
+  vertical-align  : middle;
+  margin-bottom   : 1em;
+}
+
+.message {
+  width : 90%;
+  margin: 0 auto;
+}
+
+.author {
+  text-align: center;
+}
+
+.container {
+  border    : solid 1px lime;
+  width     : 800px;
+  margin    : 0 auto;
+  text-align: center;
+}
+
+.link {
+  font-size: 2rem;
+  cursor   : pointer;
+}
+
+.btns {
+  display: inline-block;
+}
+@media (max-width: 1024px) {
+  .container {
+    width: 100%;
+  }
+
+  .message {
+    width: 100%;
+  }
+
+  .author {}
+}
